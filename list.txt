@@ -1,0 +1,306 @@
+卷 DATA 的文件夹 PATH 列表
+卷序列号为 D2B9-54F6
+D:.
+│  list.txt
+│  result.PNG
+│  result2.PNG
+│  result3.PNG
+│  test.py
+│  train.data
+│  
+├─.idea
+│  │  encodings.xml
+│  │  misc.xml
+│  │  modules.xml
+│  │  project.iml
+│  │  vcs.xml
+│  │  workspace.xml
+│  │  
+│  ├─inspectionProfiles
+│  └─libraries
+│          R_User_Library.xml
+│          
+├─CRF
+│  │  calendar_api.py
+│  │  corpus.py
+│  │  corpus.pyc
+│  │  credentials.json
+│  │  execute.py
+│  │  model.py
+│  │  model.pyc
+│  │  preprocess_email.py
+│  │  token.json
+│  │  
+│  ├─data
+│  │      model.pkl
+│  │      rmrb.txt
+│  │      rmrb199801.txt
+│  │      test.txt
+│  │      
+│  ├─email_data
+│  │      00.txt
+│  │      01.txt
+│  │      02.txt
+│  │      03.txt
+│  │      04.txt
+│  │      05.txt
+│  │      06.txt
+│  │      07.txt
+│  │      08.txt
+│  │      09.txt
+│  │      10.txt
+│  │      11.txt
+│  │      12.txt
+│  │      13.txt
+│  │      14.txt
+│  │      15.txt
+│  │      16.txt
+│  │      17.txt
+│  │      18.txt
+│  │      19.txt
+│  │      20.txt
+│  │      21.txt
+│  │      22.txt
+│  │      23.txt
+│  │      24.txt
+│  │      25.txt
+│  │      26.txt
+│  │      27.txt
+│  │      28.txt
+│  │      29.txt
+│  │      30.txt
+│  │      31.txt
+│  │      32.txt
+│  │      33.txt
+│  │      34.txt
+│  │      35.txt
+│  │      36.txt
+│  │      37.txt
+│  │      38.txt
+│  │      39.txt
+│  │      40.txt
+│  │      41.txt
+│  │      42.txt
+│  │      43.txt
+│  │      44.txt
+│  │      45.txt
+│  │      46.txt
+│  │      47.txt
+│  │      48.txt
+│  │      49.txt
+│  │      50.txt
+│  │      51.txt
+│  │      52.txt
+│  │      53.txt
+│  │      54.txt
+│  │      55.txt
+│  │      56.txt
+│  │      57.txt
+│  │      58.txt
+│  │      59.txt
+│  │      60.txt
+│  │      61.txt
+│  │      62.txt
+│  │      63.txt
+│  │      64.txt
+│  │      65.txt
+│  │      66.txt
+│  │      67.txt
+│  │      68.txt
+│  │      69.txt
+│  │      70.txt
+│  │      71.txt
+│  │      72.txt
+│  │      73.txt
+│  │      74.txt
+│  │      75.txt
+│  │      76.txt
+│  │      77.txt
+│  │      78.txt
+│  │      79.txt
+│  │      80.txt
+│  │      81.txt
+│  │      82.txt
+│  │      83.txt
+│  │      84.txt
+│  │      85.txt
+│  │      86.txt
+│  │      87.txt
+│  │      88.txt
+│  │      89.txt
+│  │      90.txt
+│  │      91.txt
+│  │      92.txt
+│  │      93.txt
+│  │      94.txt
+│  │      95.txt
+│  │      96.txt
+│  │      97.txt
+│  │      98.txt
+│  │      99.txt
+│  │      NLP.rar
+│  │      邮件样例.zip
+│  │      
+│  ├─label_data
+│  │      00_label.txt
+│  │      01_label.txt
+│  │      02_label.txt
+│  │      03_label.txt
+│  │      04_label.txt
+│  │      05_label.txt
+│  │      06_label.txt
+│  │      07_label.txt
+│  │      08_label.txt
+│  │      09_label.txt
+│  │      10_label.txt
+│  │      11_label.txt
+│  │      12_label.txt
+│  │      13_label.txt
+│  │      14_label.txt
+│  │      15_label.txt
+│  │      16_label.txt
+│  │      17_label.txt
+│  │      18_label.txt
+│  │      19_label.txt
+│  │      20_label.txt
+│  │      21_label.txt
+│  │      22_label.txt
+│  │      23_label.txt
+│  │      24_label.txt
+│  │      25_label.txt
+│  │      26_label.txt
+│  │      27_label.txt
+│  │      28_label.txt
+│  │      29_label.txt
+│  │      30_label.txt
+│  │      31_label.txt
+│  │      32_label.txt
+│  │      33_label.txt
+│  │      34_label.txt
+│  │      35_label.txt
+│  │      36_label.txt
+│  │      37_label.txt
+│  │      38_label.txt
+│  │      39_label.txt
+│  │      40_label.txt
+│  │      41_label.txt
+│  │      42_label.txt
+│  │      43_label.txt
+│  │      44_label.txt
+│  │      45_label.txt
+│  │      46_label.txt
+│  │      47_label.txt
+│  │      48_label.txt
+│  │      49_label.txt
+│  │      50_label.txt
+│  │      51_label.txt
+│  │      52_label.txt
+│  │      53_label.txt
+│  │      54_label.txt
+│  │      55_label.txt
+│  │      56_label.txt
+│  │      57_label.txt
+│  │      58_label.txt
+│  │      59_label.txt
+│  │      60_label.txt
+│  │      61_label.txt
+│  │      62_label.txt
+│  │      63_label.txt
+│  │      64_label.txt
+│  │      65_label.txt
+│  │      66_label.txt
+│  │      67_label.txt
+│  │      68_label.txt
+│  │      69_label.txt
+│  │      70_label.txt
+│  │      71_label.txt
+│  │      72_label.txt
+│  │      73_label.txt
+│  │      74_label.txt
+│  │      75_label.txt
+│  │      76_label.txt
+│  │      77_label.txt
+│  │      78_label.txt
+│  │      79_label.txt
+│  │      80_label.txt
+│  │      81_label.txt
+│  │      82_label.txt
+│  │      83_label.txt
+│  │      84_label.txt
+│  │      85_label.txt
+│  │      86_label.txt
+│  │      87_label.txt
+│  │      88_label.txt
+│  │      89_label.txt
+│  │      90_label.txt
+│  │      91_label.txt
+│  │      92_label.txt
+│  │      93_label.txt
+│  │      94_label.txt
+│  │      95_label.txt
+│  │      96_label.txt
+│  │      97_label.txt
+│  │      98_label.txt
+│  │      99_label.txt
+│  │      
+│  ├─result
+│  │      email_result.txt
+│  │      
+│  └─__pycache__
+│          calendar_api.cpython-36.pyc
+│          corpus.cpython-36.pyc
+│          model.cpython-36.pyc
+│          preprocess_email.cpython-36.pyc
+│          
+├─CRF_Model
+│  │  api.py
+│  │  api.pyc
+│  │  config.conf
+│  │  config.py
+│  │  config.pyc
+│  │  corpus.py
+│  │  corpus.pyc
+│  │  manage.py
+│  │  model.py
+│  │  model.pyc
+│  │  test.py
+│  │  util.py
+│  │  util.pyc
+│  │  __init__.py
+│  │  
+│  ├─data
+│  │      model.pkl
+│  │      part_of_corpus.txt
+│  │      part_of_process.txt
+│  │      rmrb.txt
+│  │      rmrb199801.txt
+│  │      test.txt
+│  │      
+│  └─__pycache__
+│          api.cpython-36.pyc
+│          config.cpython-36.pyc
+│          corpus.cpython-36.pyc
+│          model.cpython-36.pyc
+│          util.cpython-36.pyc
+│          
+├─HMM_model
+│  │  emiss_prob.txt
+│  │  HmmNERTagger.py
+│  │  HMM_Model.py
+│  │  start_prob.txt
+│  │  trans_prob.txt
+│  │  word.txt
+│  │  
+│  └─__pycache__
+│          HMM_Model.cpython-36.pyc
+│          
+├─tfidf
+│  │  idf.txt
+│  │  tfidf.py
+│  │  __init__.py
+│  │  
+│  └─__pycache__
+│          tfidf.cpython-36.pyc
+│          __init__.cpython-36.pyc
+│          
+└─__pycache__
