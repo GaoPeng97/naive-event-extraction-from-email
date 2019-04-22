@@ -1,4 +1,37 @@
 # naive-event-extraction-from-email
+
+程序使用说明
+
+运行环境
+
+    Windows
+    python3.6
+
+打开程序先进入到CRF的文件夹下：
+
+    cd CRF
+
+然后可以运行如下命令：
+
+    python execute.py train  //就能训练模型，默认CRF若想使用HMM，手动加入即可
+
+    python execute.py process  //预处理语料库
+
+    python execute.py recognize email_data label_data  //处理所有的邮件 得到的结果会存在                                                      //result目录下
+
+    python execute.py test_calendar   //测试日历模块，运行前请预先删除token.json
+
+如果想测试HMM模型
+
+    cd HMM_Model  //进入到HMM模型文件下
+    python  HmmNERTagger.py [要测试的句子] 
+
+若想更改训练的语料库和标签，找到该目录， 更改对应的代码即可
+
+    /CRF/corpus.py
+
+
+
 一、分析与实验
 
 思路概要：通过调研发现我们想做的效果很接近NLP中一个经典的问题NER，NER又称命名实体识别，通常指的是从文本中提取哪些具有特别意义或者指代性非常强的实体，包括人名，地名，机构名，时间，专有名词等。而人名，地名，和时间恰恰也是我们想提取出来的。所以我们的首要目标应当是搭建一个NER系统。但是我们的目标却不只是提取这些地名，人名，我们还需要文本中提炼出事件，者是一个很棘手的事情，因为事件是一个很宽泛的概念，它可以是名词，动词，动名词等等。我们最后采用的是用TFIDF方法，从文本中得到重要性最高的名词，动词集合，从中得到事件的表达。
@@ -256,38 +289,6 @@ TFIDF（Term Frequency-Inverse Document Frequency）即词频-逆文件频率，
     │          __init__.cpython-36.pyc
     │          
     └─__pycache__
-
-
-
-程序使用说明
-
-运行环境
-
-    Windows
-    python3.6
-
-打开程序先进入到CRF的文件夹下：
-
-    cd CRF
-
-然后可以运行如下命令：
-
-    python execute.py train  //就能训练模型，默认CRF若想使用HMM，手动加入即可
-
-    python execute.py process  //预处理语料库
-
-    python execute.py recognize email_data label_data  //处理所有的邮件 得到的结果会存在                                                      //result目录下
-
-    python execute.py test_calendar   //测试日历模块，运行前请预先删除token.json
-
-如果想测试HMM模型
-
-    cd HMM_Model  //进入到HMM模型文件下
-    python  HmmNERTagger.py [要测试的句子] 
-
-若想更改训练的语料库和标签，找到该目录， 更改对应的代码即可
-
-    /CRF/corpus.py
 
 
 
